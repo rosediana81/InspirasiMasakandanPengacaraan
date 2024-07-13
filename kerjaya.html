@@ -58,7 +58,45 @@ li a:hover:not(.active) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Embedded YouTube Video</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #FFFDD0; /* Cream color */
+      color: #333; /* Dark gray text */
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 320px; /* Adjust max-width as needed */
+      margin-top: 20px;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      height: 180px; /* Adjust height as needed */
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -70,43 +108,6 @@ li a:hover:not(.active) {
 </body>
 </html>
 
-body {
-  background-color: #FFFDD0; /* Cream color */
-  color: #333; /* Dark gray text */
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  text-align: center;
-}
-
-.container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
-.video-container {
-  position: relative;
-  width: 100%;
-  max-width: 320px; /* Adjust max-width as needed */
-  margin-top: 20px;
-}
-
-.video-container iframe {
-  width: 100%;
-  height: 180px; /* Adjust height as needed */
-}
 
 		
 <p><h1 style="text-align:center;">KERJAYA</p></h1>
