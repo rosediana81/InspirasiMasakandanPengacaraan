@@ -264,18 +264,31 @@ saya yakin bahawa saya akan dapat mengharungi segala rintangan dan mencapai keja
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Embedded YouTube Video</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the video */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+}
+
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>Lagu-lagu Yang Mengispirasikan Saya</h1>
-    <div class="video-container">
-      <iframe width="600" height="400" src="https://www.youtube.com/embed/wzvvDUT5dZs?start=43&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
+
+<h1 style="text-align: center;">Lagu-Lagu Yang Menginspirasikan</h1>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/wzvvDUT5dZs?autoplay=1" frameborder="0" allowfullscreen></iframe>
+</div>
+
 </body>
 </html>
 
