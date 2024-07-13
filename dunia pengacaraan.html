@@ -611,46 +611,28 @@ Saya merasa seronok dan bersemangat untuk terus berkhidmat sebagai pengacara, me
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-.video-wrapper {
+.video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (divide 9 by 16 = 0.5625 or 56.25%) */
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
+  width: 100%;
+  max-width: 800px; /* Adjust max-width as needed */
   margin: 0 auto; /* Center the video */
 }
 
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+.video-container iframe {
   width: 100%;
-  height: 100%;
-}
-
-/* Optional: Hide YouTube controls and info */
-.video-wrapper iframe {
-  pointer-events: none;
+  height: 400px; /* Adjust height as needed */
 }
 
 </style>
 </head>
 <body>
 
-<div class="video-wrapper">
+<div class="video-container">
   <iframe src="https://www.youtube.com/embed/wKvy_NsNEwU?autoplay=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 </body>
 </html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered and Colored Text</title>
-</head>
 <body>
     <h2 style="text-align: center; color: blue;">PENGACARA HARI SUKAN</h2>
 </body>
